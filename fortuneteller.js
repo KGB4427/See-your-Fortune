@@ -14,8 +14,8 @@ let TaurusArray = ["The stars predict tomorrow you'll wake up, do a bunch of stu
                    "Your evil inator that turns cars into toy cars so you can park will be thworted by a platypus in a dashing hat."];
 let Gemini;
 let GeminiArray = ["Gemini's should NEVER spend more than 2 hours and 34 minutes in the sun, lest they turn into a bagel.", 
-                   "What's up",
-                   ""];
+                   "There is a spy among you... Wait, no. It's a pie. Your fortune is a pie.",
+                   "I see a bright future ahead for you. Like, literally. You should probably put on some sunglasses."];
 let Cancer;
 let CancerArray = ["Im a cancer", 
                    "What's up"];
