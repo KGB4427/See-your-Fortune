@@ -33,6 +33,10 @@ body{
     cursor: pointer;
 }
 
+p {
+    color:#fff30d;
+    font-family: 'comic sans ms';}
+
 /* #EyeballContainer {
     position: absolute;
     top: 10%;
