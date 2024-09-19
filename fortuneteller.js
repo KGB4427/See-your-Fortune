@@ -47,10 +47,10 @@ let opac = 0; // Opacity of the image
 
 function preload(){
 
-    SpeachBubble = loadImage('images/SpeachBubble.png');
+    SpeachBubble = loadImage('Images/SpeachBubble.png');
         // Load horoscope images into the array
     for (let i = 0; i < 8; i++) {
-        HoroscopeImages[i] = loadImage(`images/horoscopes/horoscope${i + 1}.svg`);
+        HoroscopeImages[i] = loadImage(`Images/horoscopes/horoscope${i + 1}.svg`);
     }
 
 
