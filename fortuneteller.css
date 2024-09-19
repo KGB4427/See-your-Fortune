@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('fortuneteller.js');
+
+html{
+    width: 100%;
+    height: 1800px;
+    flex-shrink: 0;
+    background: linear-gradient(0deg, #2D0320 0%, #2D0320 100%);
+    
+    
+}
+
+body{
+    width: 97%;
+    height: 97%;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #392B58 0%, #33173C 86%);
+    
+
+}
+
+#Eyeball{
+    position: absolute;
+    top: 75px;
+    left: 105px;
+    height: 250px;
+    flex-shrink: 0;
+
+    z-index: 3;
+    background-size: cover; /* Ensure the background image covers the element */
+
+    cursor: pointer;
+}
+
+/* #EyeballContainer {
+    position: absolute;
+    top: 10%;
+    left: 110px;
+    height: 200px;
+    width: 200px; /* Set a fixed width *
+    /* animation: changeEyeballImage 9s infinite, float 3s infinite; /* Apply the animation *
+    z-index: 4; /* Ensure the container is on top *
+}
+
+#Eyeball {
+    opacity: 0; /* Hide the static eyeball image *
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+} */
+
+#CrystalBall{
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    height: 215px;
+
+    z-index: 2;
+    cursor: pointer;
+    
+}
+
+#Table{
+    position: absolute;
+    top: 230px;
+    left: 60px;
+    height: 250px;
+    flex-shrink: 0;
+    z-index: 1;
+
+}
+
+#rectangle{
+
+    width: 80%;
+    /*height: 1000px;*/
+    border-radius: 45px;
+    background: rgba(45, 3, 32, 0.55);
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    z-index: 0;
+
+
+}
+
+.image-grid {
+    --gap: 10px;
+    --num-colls: 3;
+    --row-height: 200px;
+
+    padding: var(--gap);
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: var(--row-height);
+    grid-gap: var(--gap);
+    justify-content: center;
+
+}
+
+.image-grid > img{
+    width: 200px;
+    height: 200px;
+    object-fit: auto;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgba(45, 5, 47, 0.5);
+    transition: 0.2s;
+}
+
+.Horoscope {
+    display: inline-block;
+    padding: 0px 0px;
+    margin: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #431049;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    opacity: 80%;
+}
+
+.Horoscope:hover {
+    background-color: #ffe51d;
+    scale: 1.05;
+}
+
+.Horoscope:active {
+    background-color: #7a6e1a;
+    scale: 1;
+}
+
+/* New styles for floating effect */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Keyframes for changing Eyeball image *
+@keyframes changeEyeballImage {
+    0% {
+        background-image: url('images/Eyeball.png');
+    }
+    2% {
+        background-image: url('images/Eyeball1.png');
+    }
+    4% {
+        background-image: url('images/Eyeball.png');
+    }
+    100% {
+        background-image: url('images/Eyeball.png');
+    } 
+} */
+
+.Teller {
+    animation: float 3s infinite;
+}
