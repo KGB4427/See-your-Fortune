@@ -49,9 +49,9 @@ function preload(){
 
     SpeachBubble = loadImage('./Images/SpeachBubble.png');
         // Load horoscope images into the array
-    for (let i = 0; i < 8; i++) {
-        HoroscopeImages[i] = loadImage(`Images/horoscopes/horoscope${i + 1}.svg`);
-    }
+    // for (let i = 0; i < 8; i++) {
+    //     HoroscopeImages[i] = loadImage(`Images/horoscopes/horoscope${i + 1}.svg`);
+    // }
 
 
 }
