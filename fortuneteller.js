@@ -35,9 +35,14 @@ let messages = [
     "Your fate is not always set in stone. I should know like I'm made of crystal.",
     "You're lucky #s are:\n1  2  3  4  5.\nWait, something doesn't seem right.",
     "On September 24th, expect someone to wear a mushroom hat. They're a real fungi. Get it?\nYeah, It's not as funny the 1000th time.",
-    "🎵Come on grab your friends~🎵\n🎵We'll go to very distand lands~🎵\nHuh? Sorry, what was I saying?",
+    "🎵Come along with me~🎵\n🎵And the butterflys and bee~🎵\nHuh? Sorry... what was I saying?",
     "Like um, Use as many uh filler words as you can. It's like totally cool, you know? Don't let anyone tell you otherwise.",
-    "A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A" // Text text length
+    // "A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A", // Text text length
+    "Have you read the book of a triangle with a top hat. From what I've seen, they're a dreadful little dorito.",
+    "How do I tell the future? Well, I am a crystal ball. I just look into myself and see what's up.",
+    "I would do a tarot reading, but my hands are in the wash. Come back when they're dry.",
+    "I see... a mysterious mansion... with a little clown in front of the door. *Gasp* The new TADC is coming soon!",
+    "I can see your future... and you know what I see... more projects. Like, a lot more."
 ];
 let currentMessage = "";
 
