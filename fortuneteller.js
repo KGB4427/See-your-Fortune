@@ -9,7 +9,7 @@ let AriesArray = ["An Aries I see. You'll have great fortune... In a large like 
                   "If you see a mermaid in the river. Avoid them! They want your One Piece collection!",
                   "I heard that if an Aries spins in their chair super fast, they'll be sent to the 4th dimension. Or throw up. I forget which."];
 let Taurus;
-let TaurusArray = ["The stars predict tomorrow you'll wake up, do a bunch of stuff, and then go back to sleep.", 
+let TaurusArray = ["🎵The stars predict tomorrow you'll wake up, do a bunch of stuff, and then go back to sleep~🎵", 
                    "Avoid eating that 2 month old salad. Like it will make you feel bloated... among other things.",
                    "Your evil inator that turns cars into toy cars so you can park will be thworted by a platypus in a dashing hat."];
 let Gemini;
@@ -17,20 +17,25 @@ let GeminiArray = ["Gemini's should NEVER spend more than 2 hours and 34 minutes
                    "There is a spy among you... Wait, no. It's a pie. Your fortune is a pie.",
                    "I see a bright future ahead for you. Like, literally. You should probably put on some sunglasses."];
 let Cancer;
-let CancerArray = ["Im a cancer", 
-                   "What's up"];
+let CancerArray = ["You're father will be replaced by a robot controlled by a platypus. So keep your eyes peeled.", 
+                   "I forsee a great journey ahead of you. Like, a really long walk. You should probably bring a snack.",
+                   "You will soon buy a pet jellyfish, so be sure to buy plenty of small crustaceans."];
 let Leo;
-let LeoArray = ["Im a leo", 
-                "What's up"];
+let LeoArray = ["You know, I have a feline friend named Leo. He's a constalation ninja. Perhaps you'll meet him one day.", 
+                "My star friend Leo says you will buy a tuna roll. Or else you'll get a cat scratch.\nI'll tell him to leave you be.",
+                "The tea leaves tell me that you'll enjoy a lovely Jasmine tea with a kind, wise old uncle."];
 let Virgo;
-let VirgoArray = ["Im a virgo", 
-                  "What's up"];
+let VirgoArray = ["The forest spirits will protect you from your paralasis demon. But like don't forget to leave out some nectar.", 
+                  "Your shadow tells me you'd look stellar in some platform boots. And I agree, you would slay in some platforms.",
+                  "I see a giant pillow fort in your future. Sounds like fun. Can I join in?"];
 let Libra;
-let LibraArray = ["Im a libra", 
-                  "What's up"];
+let LibraArray = ["🎵Laughter is the very best medicine. Remember that when your appendix bursts next week~🎵", 
+                  "Do not fear the unknown, as it will become known. Only fear the evil within the known. Pretty insightful, huh?",
+                  "Worry not. That 50-foot Danny Devito cutout you bought is always in style. Like always."];
 let Scorpio;
-let ScorpioArray = ["Im a scorpio", 
-                    "What's up"];
+let ScorpioArray = ["An apple a day doesn't keep the doctor away. But it does keep the rabid chihuahuas at bay.", 
+                    "The next event you attend will be a masquerade ball. And there will be colorful ballons. I'm jealous.",
+                    "Where there is smoke, there is fire. And where there is fire, there is someone burning their pizza rolls."];
 let messages = [
     "Your fate is not always set in stone. I should know like I'm made of crystal.",
     "You're lucky #s are:\n1  2  3  4  5.\nWait, something doesn't seem right.",
@@ -42,7 +47,11 @@ let messages = [
     "How do I tell the future? Well, I am a crystal ball. I just look into myself and see what's up.",
     "I would do a tarot reading, but my hands are in the wash. Come back when they're dry.",
     "I see... a mysterious mansion... with a little clown in front of the door. *Gasp* The new TADC is coming soon!",
-    "I can see your future... and you know what I see... more projects. Like, a lot more."
+    "I can see your future... and you know what I see... more projects. Like, a lot more.",
+    "If you're worried about your projects, don't be. You're doing great! Keep up the good work!",
+    "Where are the rest of the horoscopes you ask? They went on a spiritual quest. They'll be back soon.",
+    "A dark force is coming... and it will bring a great evil... be cautious.",
+    "Wait for it...\nwait for it...\nboneless pizza. You're welcome."
 ];
 let currentMessage = "";
 
